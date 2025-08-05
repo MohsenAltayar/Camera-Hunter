@@ -23,7 +23,8 @@ pkg update && pkg upgrade -y
 pkg install git python -y
 git clone https://github.com/MohsenAltayar/Camera-Hunter.git
 cd Camera-Hunter
-python3 Camera.py
+pip install -r requirements.txt
+python Cameras.py
 ```
 
 ---
